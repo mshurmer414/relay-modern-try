@@ -1,0 +1,16 @@
+#schema {
+#    query: Countries
+#}
+
+type Query {
+    continents:  [Continent]
+}
+
+#type Continents {
+#    continents: [Continent]
+#}
+
+type Continent {
+    name: String
+    code: String
+}
